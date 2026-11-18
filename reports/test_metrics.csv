@@ -1,0 +1,6 @@
+﻿Model,Eşik,Destek accuracy (%),Doğru otomatik destek /10,OOS recall (%),Yanlış destek reddi (%),Genel yönlendirme doğruluğu (%)
+TF-IDF,0.21617080338234074,90.0,9,30.0,0.0,60.0
+Word2Vec + NN,0.9990919828414917,70.0,0,90.0,100.0,45.0
+BERT öğretmen FP32,0.964817225933075,100.0,10,80.0,0.0,90.0
+BERT öğrenci FP32,0.9881184697151184,100.0,8,70.0,20.0,75.0
+BERT öğrenci INT8,0.9881184697151184,100.0,8,80.0,20.0,80.0

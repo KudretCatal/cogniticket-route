@@ -1,0 +1,43 @@
+{
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "threads": 2,
+  "torch_version": "2.14.1+cu130",
+  "batch_size": 1,
+  "warmup_runs_per_model": 10,
+  "measured_runs_per_model": 100,
+  "preprocessing_included": true,
+  "input_split": "validation",
+  "size_definition": "Learned weights and learned preprocessors; excludes tokenizer/config/reports",
+  "models": {
+    "TF-IDF": {
+      "size_mb": 0.08178,
+      "mean_latency_ms": 2.4584598900491983,
+      "median_latency_ms": 1.4524550001624448,
+      "std_latency_ms": 1.8532634002325374
+    },
+    "Word2Vec + NN": {
+      "size_mb": 0.260593,
+      "mean_latency_ms": 0.9714449399689329,
+      "median_latency_ms": 0.6685910002488527,
+      "std_latency_ms": 1.097326330386084
+    },
+    "BERT öğretmen FP32": {
+      "size_mb": 442.563373,
+      "mean_latency_ms": 418.05385875000866,
+      "median_latency_ms": 190.1521220001996,
+      "std_latency_ms": 406.43429779020255
+    },
+    "BERT öğrenci FP32": {
+      "size_mb": 215.702227,
+      "mean_latency_ms": 165.77972966001653,
+      "median_latency_ms": 82.42331649989865,
+      "std_latency_ms": 206.82544658689875
+    },
+    "BERT öğrenci INT8": {
+      "size_mb": 129.00706,
+      "mean_latency_ms": 81.29400580997753,
+      "median_latency_ms": 47.3012050001671,
+      "std_latency_ms": 88.50413908315605
+    }
+  }
+}

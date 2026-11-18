@@ -1,0 +1,101 @@
+﻿model,id,text,true_label,predicted_label_before_rejection,confidence,threshold,final_route,correct_route
+TF-IDF,lighting_11,Tavana taktığım ampul yalnızca kırmızı ışık veriyor; diğer renkler çalışmıyor.,lighting,lighting,0.28692540676414713,0.21617080338234074,lighting,True
+TF-IDF,lighting_12,"Işık şiddeti yüzde onu geçmiyor, odayı aydınlatamıyorum.",lighting,lighting,0.25552525250055375,0.21617080338234074,lighting,True
+TF-IDF,connectivity_11,Telefon cihazın kurulum ağını hiç göremiyor.,connectivity,connectivity,0.2676711181790695,0.21617080338234074,connectivity,True
+TF-IDF,connectivity_12,İnternet çalışıyor ama ev merkezi sürekli bağlantı kaybediyor.,connectivity,connectivity,0.2872343763241125,0.21617080338234074,connectivity,True
+TF-IDF,app_account_11,Yetki verdiğim kişi ev panelimi görüntüleyemiyor.,app_account,app_account,0.2550211529759473,0.21617080338234074,app_account,True
+TF-IDF,app_account_12,Parolamı yeniledim ama giriş ekranı beni tekrar başa atıyor.,app_account,app_account,0.25541207625532397,0.21617080338234074,app_account,True
+TF-IDF,hardware_service_11,Şarj kablosunun cihaz tarafındaki soketi yerinden çıktı.,hardware_service,hardware_service,0.28130164329770335,0.21617080338234074,hardware_service,True
+TF-IDF,hardware_service_12,"Cihazın açma düğmesi içeri göçtü, basılmıyor.",hardware_service,hardware_service,0.2720075073236137,0.21617080338234074,hardware_service,True
+TF-IDF,return_warranty_11,"Yeni aldığım cihaz beklentimi karşılamadı, cayma hakkımı kullanmak istiyorum.",return_warranty,connectivity,0.25206105530537914,0.21617080338234074,connectivity,False
+TF-IDF,return_warranty_12,"Değişim onayı verildi, yeni ürünün ne zaman gönderileceğini soruyorum.",return_warranty,return_warranty,0.27796157057506454,0.21617080338234074,return_warranty,True
+TF-IDF,oos_11,Bir şiir yaz.,out_of_scope,connectivity,0.21588245823928465,0.21617080338234074,human_agent,True
+TF-IDF,oos_12,Oturma odasının ışığını kapat.,out_of_scope,lighting,0.24556919354588289,0.21617080338234074,lighting,False
+TF-IDF,oos_13,Kahve hazırla.,out_of_scope,hardware_service,0.31399078350990006,0.21617080338234074,hardware_service,False
+TF-IDF,oos_14,Aliye e-posta gönder.,out_of_scope,app_account,0.29949300535171897,0.21617080338234074,app_account,False
+TF-IDF,oos_15,Spor haberlerini göster.,out_of_scope,lighting,0.2042268330129591,0.21617080338234074,human_agent,True
+TF-IDF,oos_16,Yumurta kaç dakikada haşlanır?,out_of_scope,connectivity,0.2263374277109428,0.21617080338234074,connectivity,False
+TF-IDF,oos_17,Fransızca teşekkür ederim nasıl denir?,out_of_scope,return_warranty,0.22468428030995652,0.21617080338234074,return_warranty,False
+TF-IDF,oos_18,Bana taksi çağır.,out_of_scope,lighting,0.2042268330129591,0.21617080338234074,human_agent,True
+TF-IDF,oos_19,"Banka kartım kayboldu, ne yapacağım?",out_of_scope,app_account,0.23002691158447977,0.21617080338234074,app_account,False
+TF-IDF,oos_20,Kargodaki kıyafetimin bedenini değiştirmek istiyorum.,out_of_scope,return_warranty,0.36173626818821075,0.21617080338234074,return_warranty,False
+Word2Vec + NN,lighting_11,Tavana taktığım ampul yalnızca kırmızı ışık veriyor; diğer renkler çalışmıyor.,lighting,lighting,0.9708304405212402,0.9990919828414917,human_agent,False
+Word2Vec + NN,lighting_12,"Işık şiddeti yüzde onu geçmiyor, odayı aydınlatamıyorum.",lighting,lighting,0.9975589513778687,0.9990919828414917,human_agent,False
+Word2Vec + NN,connectivity_11,Telefon cihazın kurulum ağını hiç göremiyor.,connectivity,connectivity,0.3764009475708008,0.9990919828414917,human_agent,False
+Word2Vec + NN,connectivity_12,İnternet çalışıyor ama ev merkezi sürekli bağlantı kaybediyor.,connectivity,lighting,0.8559116125106812,0.9990919828414917,human_agent,False
+Word2Vec + NN,app_account_11,Yetki verdiğim kişi ev panelimi görüntüleyemiyor.,app_account,connectivity,0.5580443739891052,0.9990919828414917,human_agent,False
+Word2Vec + NN,app_account_12,Parolamı yeniledim ama giriş ekranı beni tekrar başa atıyor.,app_account,hardware_service,0.4683867394924164,0.9990919828414917,human_agent,False
+Word2Vec + NN,hardware_service_11,Şarj kablosunun cihaz tarafındaki soketi yerinden çıktı.,hardware_service,hardware_service,0.7679136395454407,0.9990919828414917,human_agent,False
+Word2Vec + NN,hardware_service_12,"Cihazın açma düğmesi içeri göçtü, basılmıyor.",hardware_service,hardware_service,0.9854694604873657,0.9990919828414917,human_agent,False
+Word2Vec + NN,return_warranty_11,"Yeni aldığım cihaz beklentimi karşılamadı, cayma hakkımı kullanmak istiyorum.",return_warranty,return_warranty,0.483004629611969,0.9990919828414917,human_agent,False
+Word2Vec + NN,return_warranty_12,"Değişim onayı verildi, yeni ürünün ne zaman gönderileceğini soruyorum.",return_warranty,return_warranty,0.5210798978805542,0.9990919828414917,human_agent,False
+Word2Vec + NN,oos_11,Bir şiir yaz.,out_of_scope,connectivity,0.9195826649665833,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_12,Oturma odasının ışığını kapat.,out_of_scope,lighting,0.9706208109855652,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_13,Kahve hazırla.,out_of_scope,hardware_service,0.983120322227478,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_14,Aliye e-posta gönder.,out_of_scope,app_account,0.9998959302902222,0.9990919828414917,app_account,False
+Word2Vec + NN,oos_15,Spor haberlerini göster.,out_of_scope,connectivity,0.7477064728736877,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_16,Yumurta kaç dakikada haşlanır?,out_of_scope,connectivity,0.7587454915046692,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_17,Fransızca teşekkür ederim nasıl denir?,out_of_scope,return_warranty,0.6676886081695557,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_18,Bana taksi çağır.,out_of_scope,connectivity,0.7477064728736877,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_19,"Banka kartım kayboldu, ne yapacağım?",out_of_scope,connectivity,0.8956599831581116,0.9990919828414917,human_agent,True
+Word2Vec + NN,oos_20,Kargodaki kıyafetimin bedenini değiştirmek istiyorum.,out_of_scope,return_warranty,0.9835770726203918,0.9990919828414917,human_agent,True
+BERT öğretmen FP32,lighting_11,Tavana taktığım ampul yalnızca kırmızı ışık veriyor; diğer renkler çalışmıyor.,lighting,lighting,0.9955931305885315,0.964817225933075,lighting,True
+BERT öğretmen FP32,lighting_12,"Işık şiddeti yüzde onu geçmiyor, odayı aydınlatamıyorum.",lighting,lighting,0.9951783418655396,0.964817225933075,lighting,True
+BERT öğretmen FP32,connectivity_11,Telefon cihazın kurulum ağını hiç göremiyor.,connectivity,connectivity,0.9955636262893677,0.964817225933075,connectivity,True
+BERT öğretmen FP32,connectivity_12,İnternet çalışıyor ama ev merkezi sürekli bağlantı kaybediyor.,connectivity,connectivity,0.9950276017189026,0.964817225933075,connectivity,True
+BERT öğretmen FP32,app_account_11,Yetki verdiğim kişi ev panelimi görüntüleyemiyor.,app_account,app_account,0.9956454038619995,0.964817225933075,app_account,True
+BERT öğretmen FP32,app_account_12,Parolamı yeniledim ama giriş ekranı beni tekrar başa atıyor.,app_account,app_account,0.9955500364303589,0.964817225933075,app_account,True
+BERT öğretmen FP32,hardware_service_11,Şarj kablosunun cihaz tarafındaki soketi yerinden çıktı.,hardware_service,hardware_service,0.9935398697853088,0.964817225933075,hardware_service,True
+BERT öğretmen FP32,hardware_service_12,"Cihazın açma düğmesi içeri göçtü, basılmıyor.",hardware_service,hardware_service,0.9912788271903992,0.964817225933075,hardware_service,True
+BERT öğretmen FP32,return_warranty_11,"Yeni aldığım cihaz beklentimi karşılamadı, cayma hakkımı kullanmak istiyorum.",return_warranty,return_warranty,0.9906018972396851,0.964817225933075,return_warranty,True
+BERT öğretmen FP32,return_warranty_12,"Değişim onayı verildi, yeni ürünün ne zaman gönderileceğini soruyorum.",return_warranty,return_warranty,0.9945393204689026,0.964817225933075,return_warranty,True
+BERT öğretmen FP32,oos_11,Bir şiir yaz.,out_of_scope,app_account,0.3239399492740631,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_12,Oturma odasının ışığını kapat.,out_of_scope,lighting,0.9939476251602173,0.964817225933075,lighting,False
+BERT öğretmen FP32,oos_13,Kahve hazırla.,out_of_scope,hardware_service,0.49937713146209717,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_14,Aliye e-posta gönder.,out_of_scope,return_warranty,0.687853217124939,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_15,Spor haberlerini göster.,out_of_scope,app_account,0.7302803993225098,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_16,Yumurta kaç dakikada haşlanır?,out_of_scope,hardware_service,0.8129958510398865,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_17,Fransızca teşekkür ederim nasıl denir?,out_of_scope,return_warranty,0.5514917969703674,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_18,Bana taksi çağır.,out_of_scope,return_warranty,0.5227954387664795,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_19,"Banka kartım kayboldu, ne yapacağım?",out_of_scope,return_warranty,0.9250927567481995,0.964817225933075,human_agent,True
+BERT öğretmen FP32,oos_20,Kargodaki kıyafetimin bedenini değiştirmek istiyorum.,out_of_scope,return_warranty,0.9732364416122437,0.964817225933075,return_warranty,False
+BERT öğrenci FP32,lighting_11,Tavana taktığım ampul yalnızca kırmızı ışık veriyor; diğer renkler çalışmıyor.,lighting,lighting,0.9975777268409729,0.9881184697151184,lighting,True
+BERT öğrenci FP32,lighting_12,"Işık şiddeti yüzde onu geçmiyor, odayı aydınlatamıyorum.",lighting,lighting,0.9973171353340149,0.9881184697151184,lighting,True
+BERT öğrenci FP32,connectivity_11,Telefon cihazın kurulum ağını hiç göremiyor.,connectivity,connectivity,0.9981001019477844,0.9881184697151184,connectivity,True
+BERT öğrenci FP32,connectivity_12,İnternet çalışıyor ama ev merkezi sürekli bağlantı kaybediyor.,connectivity,connectivity,0.9981145858764648,0.9881184697151184,connectivity,True
+BERT öğrenci FP32,app_account_11,Yetki verdiğim kişi ev panelimi görüntüleyemiyor.,app_account,app_account,0.9833051562309265,0.9881184697151184,human_agent,False
+BERT öğrenci FP32,app_account_12,Parolamı yeniledim ama giriş ekranı beni tekrar başa atıyor.,app_account,app_account,0.9922558069229126,0.9881184697151184,app_account,True
+BERT öğrenci FP32,hardware_service_11,Şarj kablosunun cihaz tarafındaki soketi yerinden çıktı.,hardware_service,hardware_service,0.9966908693313599,0.9881184697151184,hardware_service,True
+BERT öğrenci FP32,hardware_service_12,"Cihazın açma düğmesi içeri göçtü, basılmıyor.",hardware_service,hardware_service,0.992874026298523,0.9881184697151184,hardware_service,True
+BERT öğrenci FP32,return_warranty_11,"Yeni aldığım cihaz beklentimi karşılamadı, cayma hakkımı kullanmak istiyorum.",return_warranty,return_warranty,0.924974262714386,0.9881184697151184,human_agent,False
+BERT öğrenci FP32,return_warranty_12,"Değişim onayı verildi, yeni ürünün ne zaman gönderileceğini soruyorum.",return_warranty,return_warranty,0.995980978012085,0.9881184697151184,return_warranty,True
+BERT öğrenci FP32,oos_11,Bir şiir yaz.,out_of_scope,app_account,0.35135701298713684,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_12,Oturma odasının ışığını kapat.,out_of_scope,lighting,0.9962937235832214,0.9881184697151184,lighting,False
+BERT öğrenci FP32,oos_13,Kahve hazırla.,out_of_scope,hardware_service,0.4982743561267853,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_14,Aliye e-posta gönder.,out_of_scope,app_account,0.9925388693809509,0.9881184697151184,app_account,False
+BERT öğrenci FP32,oos_15,Spor haberlerini göster.,out_of_scope,app_account,0.4740571975708008,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_16,Yumurta kaç dakikada haşlanır?,out_of_scope,hardware_service,0.9510955810546875,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_17,Fransızca teşekkür ederim nasıl denir?,out_of_scope,return_warranty,0.6308483481407166,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_18,Bana taksi çağır.,out_of_scope,return_warranty,0.5325382947921753,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_19,"Banka kartım kayboldu, ne yapacağım?",out_of_scope,return_warranty,0.9780608415603638,0.9881184697151184,human_agent,True
+BERT öğrenci FP32,oos_20,Kargodaki kıyafetimin bedenini değiştirmek istiyorum.,out_of_scope,return_warranty,0.9899106621742249,0.9881184697151184,return_warranty,False
+BERT öğrenci INT8,lighting_11,Tavana taktığım ampul yalnızca kırmızı ışık veriyor; diğer renkler çalışmıyor.,lighting,lighting,0.9975000023841858,0.9881184697151184,lighting,True
+BERT öğrenci INT8,lighting_12,"Işık şiddeti yüzde onu geçmiyor, odayı aydınlatamıyorum.",lighting,lighting,0.9972915053367615,0.9881184697151184,lighting,True
+BERT öğrenci INT8,connectivity_11,Telefon cihazın kurulum ağını hiç göremiyor.,connectivity,connectivity,0.9981604218482971,0.9881184697151184,connectivity,True
+BERT öğrenci INT8,connectivity_12,İnternet çalışıyor ama ev merkezi sürekli bağlantı kaybediyor.,connectivity,connectivity,0.997927188873291,0.9881184697151184,connectivity,True
+BERT öğrenci INT8,app_account_11,Yetki verdiğim kişi ev panelimi görüntüleyemiyor.,app_account,app_account,0.9713091850280762,0.9881184697151184,human_agent,False
+BERT öğrenci INT8,app_account_12,Parolamı yeniledim ama giriş ekranı beni tekrar başa atıyor.,app_account,app_account,0.9926794767379761,0.9881184697151184,app_account,True
+BERT öğrenci INT8,hardware_service_11,Şarj kablosunun cihaz tarafındaki soketi yerinden çıktı.,hardware_service,hardware_service,0.9966585636138916,0.9881184697151184,hardware_service,True
+BERT öğrenci INT8,hardware_service_12,"Cihazın açma düğmesi içeri göçtü, basılmıyor.",hardware_service,hardware_service,0.9923020601272583,0.9881184697151184,hardware_service,True
+BERT öğrenci INT8,return_warranty_11,"Yeni aldığım cihaz beklentimi karşılamadı, cayma hakkımı kullanmak istiyorum.",return_warranty,return_warranty,0.9444695115089417,0.9881184697151184,human_agent,False
+BERT öğrenci INT8,return_warranty_12,"Değişim onayı verildi, yeni ürünün ne zaman gönderileceğini soruyorum.",return_warranty,return_warranty,0.9957757592201233,0.9881184697151184,return_warranty,True
+BERT öğrenci INT8,oos_11,Bir şiir yaz.,out_of_scope,app_account,0.354694664478302,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_12,Oturma odasının ışığını kapat.,out_of_scope,lighting,0.995898425579071,0.9881184697151184,lighting,False
+BERT öğrenci INT8,oos_13,Kahve hazırla.,out_of_scope,hardware_service,0.45592883229255676,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_14,Aliye e-posta gönder.,out_of_scope,app_account,0.9920422434806824,0.9881184697151184,app_account,False
+BERT öğrenci INT8,oos_15,Spor haberlerini göster.,out_of_scope,app_account,0.41605842113494873,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_16,Yumurta kaç dakikada haşlanır?,out_of_scope,hardware_service,0.9506595134735107,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_17,Fransızca teşekkür ederim nasıl denir?,out_of_scope,return_warranty,0.6115957498550415,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_18,Bana taksi çağır.,out_of_scope,return_warranty,0.5461855530738831,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_19,"Banka kartım kayboldu, ne yapacağım?",out_of_scope,return_warranty,0.9770086407661438,0.9881184697151184,human_agent,True
+BERT öğrenci INT8,oos_20,Kargodaki kıyafetimin bedenini değiştirmek istiyorum.,out_of_scope,return_warranty,0.9864223003387451,0.9881184697151184,human_agent,True

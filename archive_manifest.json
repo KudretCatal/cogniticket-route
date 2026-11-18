@@ -1,0 +1,22 @@
+{
+  "baseline_stage2.zip": {
+    "sha256": "7ebf1cc556fe054ff3e21266b585e3143350206fdf4cb804dcd8413c6db3ee3c",
+    "bytes": 29612
+  },
+  "word2vec_nn_stage2.zip": {
+    "sha256": "a5fd1fe0ada003427e96922380a2cda0562954ededf726f0ba1b868a8219ad87",
+    "bytes": 230167
+  },
+  "bert_teacher_stage2.zip": {
+    "sha256": "126e0388dd874691c872e943a5cfe4d420ff694f89f2a7e20ae346098ff6be80",
+    "bytes": 410972729
+  },
+  "bert_student_int8_stage2.zip": {
+    "sha256": "3154104c99482c532becaf67eeb91ae6afab33d3ffce2733c82212bc55ef5bfd",
+    "bytes": 311763462
+  },
+  "final_test_stage2.zip": {
+    "sha256": "fd0d3f717a646ea38dad16d4c9210e796c0f9e275a14c290b2feb0ca837e14f5",
+    "bytes": 5003
+  }
+}

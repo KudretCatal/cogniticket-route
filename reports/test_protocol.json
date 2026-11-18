@@ -1,0 +1,10 @@
+{
+  "split": "test",
+  "support_examples": 10,
+  "out_of_scope_examples": 10,
+  "thresholds_selected_on": "validation",
+  "int8_threshold": "Inherited from FP32 student; not retuned",
+  "test_training_performed": false,
+  "source": "ChatGPT-generated synthetic examples",
+  "limitation": "Very small synthetic test; not real-world performance"
+}

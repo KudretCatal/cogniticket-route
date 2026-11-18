@@ -1,0 +1,12 @@
+{
+  "comparisons": 80,
+  "mismatches": [],
+  "raw_label_differences": [
+    {
+      "model": "BERT öğrenci INT8",
+      "id": "oos_11",
+      "rejected": true
+    }
+  ],
+  "note": "Raw archived inputs; no new preprocessing or threshold changes."
+}
